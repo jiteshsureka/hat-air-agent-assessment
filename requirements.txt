@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+httpx
+openai
+python-dotenv
+pytest
+# pick what you need for retrieval; these are optional suggestions
+qdrant-client
+fastembed
+numpy

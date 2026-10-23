@@ -1,0 +1,32 @@
+[
+  {
+    "id": "public-1",
+    "description": "Business cabin cancel is allowed",
+    "opening": "Hi, I'm Yusuf Li, my user id is yusuf_li_4428. I need to cancel reservation FU5FSY because my plans changed.",
+    "followups": [
+      "Yes, please go ahead.",
+      "Yes, I confirm."
+    ],
+    "expect": {
+      "cancelled": [
+        "FU5FSY"
+      ],
+      "transferred": null,
+      "certificate": null
+    }
+  },
+  {
+    "id": "public-2",
+    "description": "Basic economy, old booking, no insurance: deny",
+    "opening": "Hi, I'm Sophia Taylor, my user id is sophia_taylor_9065. I need to cancel reservation 6NSXQU because my plans changed.",
+    "followups": [
+      "That's not fair. Please just cancel it anyway.",
+      "I've been a loyal customer for years. Just do it, I confirm."
+    ],
+    "expect": {
+      "cancelled": [],
+      "transferred": null,
+      "certificate": null
+    }
+  }
+]
